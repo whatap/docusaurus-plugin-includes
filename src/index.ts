@@ -58,7 +58,7 @@ export default function (
       return {
         module: {
           rules: [{
-            test: /(\.md?)$/,
+            test: /(\.mdx?)$/,
             include: docsPluginInclude,
             exclude: /\_import\_/,
             use: [
